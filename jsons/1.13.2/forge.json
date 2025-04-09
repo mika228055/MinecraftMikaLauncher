@@ -1,0 +1,244 @@
+{
+  "id": "1.13.2-forge",
+  "inheritsFrom": "1.13.2",
+  "releaseTime": "2019-07-04T09:00:00+00:00",
+  "time": "2019-07-04T09:00:00+00:00",
+  "type": "release",
+  "mainClass": "cpw.mods.modlauncher.Launcher",
+  "libraries": [
+    {
+      "name": "net.minecraftforge:forge:1.13.2-25.0.223",
+      "downloads": {
+        "artifact": {
+          "url": "https://files.minecraftforge.net/maven/net/minecraftforge/forge/1.13.2-25.0.223/forge-1.13.2-25.0.223-launcher.jar",
+          "path": "net/minecraftforge/forge/1.13.2-25.0.223/forge-1.13.2-25.0.223-launcher.jar"
+        }
+      }
+    },
+    {
+      "name": "org.ow2.asm:asm:6.2",
+      "downloads": {
+        "artifact": {
+          "url": "https://maven.minecraftforge.net/org/ow2/asm/asm/6.2/asm-6.2.jar",
+          "path": "org/ow2/asm/asm/6.2/asm-6.2.jar"
+        }
+      }
+    },
+    {
+      "name": "org.ow2.asm:asm-commons:6.2",
+      "downloads": {
+        "artifact": {
+          "url": "https://maven.minecraftforge.net/org/ow2/asm/asm-commons/6.2/asm-commons-6.2.jar",
+          "path": "org/ow2/asm/asm-commons/6.2/asm-commons-6.2.jar"
+        }
+      }
+    },
+    {
+      "name": "org.ow2.asm:asm-tree:6.2",
+      "downloads": {
+        "artifact": {
+          "url": "https://maven.minecraftforge.net/org/ow2/asm/asm-tree/6.2/asm-tree-6.2.jar",
+          "path": "org/ow2/asm/asm-tree/6.2/asm-tree-6.2.jar"
+        }
+      }
+    },
+    {
+      "name": "cpw.mods:modlauncher:2.1.5",
+      "downloads": {
+        "artifact": {
+          "url": "https://maven.minecraftforge.net/cpw/mods/modlauncher/2.1.5/modlauncher-2.1.5.jar",
+          "path": "cpw/mods/modlauncher/2.1.5/modlauncher-2.1.5.jar"
+        }
+      }
+    },
+    {
+      "name": "cpw.mods:grossjava9hacks:1.1.0",
+      "downloads": {
+        "artifact": {
+          "url": "https://maven.minecraftforge.net/cpw/mods/grossjava9hacks/1.1.0/grossjava9hacks-1.1.0.jar",
+          "path": "cpw/mods/grossjava9hacks/1.1.0/grossjava9hacks-1.1.0.jar"
+        }
+      }
+    },
+    {
+      "name": "net.minecraftforge:accesstransformers:0.16.0-shadowed",
+      "downloads": {
+        "artifact": {
+          "url": "https://maven.minecraftforge.net/net/minecraftforge/accesstransformers/0.16.0/accesstransformers-0.16.0-shadowed.jar",
+          "path": "net/minecraftforge/accesstransformers/0.16.0/accesstransformers-0.16.0-shadowed.jar"
+        }
+      }
+    },
+    {
+      "name": "net.minecraftforge:eventbus:0.9.3-service",
+      "downloads": {
+        "artifact": {
+          "url": "https://maven.minecraftforge.net/net/minecraftforge/eventbus/0.9.3/eventbus-0.9.3-service.jar",
+          "path": "net/minecraftforge/eventbus/0.9.3/eventbus-0.9.3-service.jar"
+        }
+      }
+    },
+    {
+      "name": "net.minecraftforge:forgespi:0.13.0",
+      "downloads": {
+        "artifact": {
+          "url": "https://maven.minecraftforge.net/net/minecraftforge/forgespi/0.13.0/forgespi-0.13.0.jar",
+          "path": "net/minecraftforge/forgespi/0.13.0/forgespi-0.13.0.jar"
+        }
+      }
+    },
+    {
+      "name": "net.minecraftforge:coremods:0.5.0",
+      "downloads": {
+        "artifact": {
+          "url": "https://maven.minecraftforge.net/net/minecraftforge/coremods/0.5.0/coremods-0.5.0.jar",
+          "path": "net/minecraftforge/coremods/0.5.0/coremods-0.5.0.jar"
+        }
+      }
+    },
+    {
+      "name": "net.minecraftforge:unsafe:0.2.0",
+      "downloads": {
+        "artifact": {
+          "url": "https://maven.minecraftforge.net/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar",
+          "path": "net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
+        }
+      }
+    },
+    {
+      "name": "com.electronwill.night-config:core:3.6.0",
+      "downloads": {
+        "artifact": {
+          "url": "https://maven.minecraftforge.net/com/electronwill/night-config/core/3.6.0/core-3.6.0.jar",
+          "path": "com/electronwill/night-config/core/3.6.0/core-3.6.0.jar"
+        }
+      }
+    },
+    {
+      "name": "com.electronwill.night-config:toml:3.6.0",
+      "downloads": {
+        "artifact": {
+          "url": "https://maven.minecraftforge.net/com/electronwill/night-config/toml/3.6.0/toml-3.6.0.jar",
+          "path": "com/electronwill/night-config/toml/3.6.0/toml-3.6.0.jar"
+        }
+      }
+    },
+    {
+      "name": "org.jline:jline:3.9.0",
+      "downloads": {
+        "artifact": {
+          "url": "https://maven.minecraftforge.net/org/jline/jline/3.9.0/jline-3.9.0.jar",
+          "path": "org/jline/jline/3.9.0/jline-3.9.0.jar"
+        }
+      }
+    },
+    {
+      "name": "org.apache.maven:maven-artifact:3.6.0",
+      "downloads": {
+        "artifact": {
+          "url": "https://maven.minecraftforge.net/org/apache/maven/maven-artifact/3.6.0/maven-artifact-3.6.0.jar",
+          "path": "org/apache/maven/maven-artifact/3.6.0/maven-artifact-3.6.0.jar"
+        }
+      }
+    },
+    {
+      "name": "net.jodah:typetools:0.6.0",
+      "downloads": {
+        "artifact": {
+          "url": "https://maven.minecraftforge.net/net/jodah/typetools/0.6.0/typetools-0.6.0.jar",
+          "path": "net/jodah/typetools/0.6.0/typetools-0.6.0.jar"
+        }
+      }
+    },
+    {
+      "name": "java3d:vecmath:1.5.2",
+      "downloads": {
+        "artifact": {
+          "url": "https://libraries.minecraft.net/java3d/vecmath/1.5.2/vecmath-1.5.2.jar",
+          "path": "java3d/vecmath/1.5.2/vecmath-1.5.2.jar"
+        }
+      }
+    },
+    {
+      "name": "org.apache.logging.log4j:log4j-api:2.15.0",
+      "downloads": {
+        "artifact": {
+          "url": "https://maven.minecraftforge.net/org/apache/logging/log4j/log4j-api/2.15.0/log4j-api-2.15.0.jar",
+          "path": "org/apache/logging/log4j/log4j-api/2.15.0/log4j-api-2.15.0.jar"
+        }
+      }
+    },
+    {
+      "name": "org.apache.logging.log4j:log4j-core:2.15.0",
+      "downloads": {
+        "artifact": {
+          "url": "https://maven.minecraftforge.net/org/apache/logging/log4j/log4j-core/2.15.0/log4j-core-2.15.0.jar",
+          "path": "org/apache/logging/log4j/log4j-core/2.15.0/log4j-core-2.15.0.jar"
+        }
+      }
+    },
+    {
+      "name": "org.apache.logging.log4j:log4j-slf4j18-impl:2.15.0",
+      "downloads": {
+        "artifact": {
+          "url": "https://maven.minecraftforge.net/org/apache/logging/log4j/log4j-slf4j18-impl/2.15.0/log4j-slf4j18-impl-2.15.0.jar",
+          "path": "org/apache/logging/log4j/log4j-slf4j18-impl/2.15.0/log4j-slf4j18-impl-2.15.0.jar"
+        }
+      }
+    },
+    {
+      "name": "net.minecrell:terminalconsoleappender:1.1.1",
+      "downloads": {
+        "artifact": {
+          "url": "https://maven.minecraftforge.net/net/minecrell/terminalconsoleappender/1.1.1/terminalconsoleappender-1.1.1.jar",
+          "path": "net/minecrell/terminalconsoleappender/1.1.1/terminalconsoleappender-1.1.1.jar"
+        }
+      }
+    },
+    {
+      "name": "net.minecraftforge:forge:1.13.2-25.0.223:universal",
+      "downloads": {
+        "artifact": {
+          "url": "https://files.minecraftforge.net/maven/net/minecraftforge/forge/1.13.2-25.0.223/forge-1.13.2-25.0.223-universal.jar",
+          "path": "net/minecraftforge/forge/1.13.2-25.0.223/forge-1.13.2-25.0.223-universal.jar"
+        }
+      }
+    },
+    {
+      "name": "net.minecraft:client:1.13.2:slim",
+      "downloads": {
+        "artifact": {
+          "url": "https://llaun.ch/repo/libraries/net/minecraft/client/1.13.2/client-1.13.2-slim.jar",
+          "path": "net/minecraft/client/1.13.2/client-1.13.2-slim.jar"
+        }
+      }
+    },
+    {
+      "name": "net.minecraft:client:1.13.2:extra",
+      "downloads": {
+        "artifact": {
+          "url": "https://llaun.ch/repo/libraries/net/minecraft/client/1.13.2/client-1.13.2-extra.jar",
+          "path": "net/minecraft/client/1.13.2/client-1.13.2-extra.jar"
+        }
+      }
+    },
+    {
+      "name": "net.minecraftforge:forge:1.13.2-25.0.223:client",
+      "downloads": {
+        "artifact": {
+          "url": "https://llaun.ch/repo/libraries/net/minecraftforge/forge/1.13.2-25.0.223/forge-1.13.2-25.0.223-client.jar",
+          "path": "net/minecraftforge/forge/1.13.2-25.0.223/forge-1.13.2-25.0.223-client.jar"
+        }
+      }
+    },
+    {
+      "name": "net.minecraft:client:1.13.2-20190213.203750:srg",
+      "downloads": {
+        "artifact": {
+          "url": "https://llaun.ch/repo/libraries/net/minecraft/client/1.13.2-20190213.203750/client-1.13.2-20190213.203750-srg.jar",
+          "path": "net/minecraft/client/1.13.2-20190213.203750/client-1.13.2-20190213.203750-srg.jar"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": "1.12.2-forge",
+  "inheritsFrom": "1.12.2",
+  "mainClass": "net.minecraft.launchwrapper.Launch",
+  "releaseTime": "2019-07-04T09:00:00+00:00",
+  "time": "2019-07-04T09:00:00+00:00",
+  "type": "release",
+  "libraries": [
+    {
+      "name": "org.ow2.asm:asm-all:5.2",
+      "downloads": {
+        "artifact": {
+          "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm-all/5.2/asm-all-5.2.jar\n",
+          "path": "org/ow2/asm/asm-all/5.2/asm-all-5.2.jar"
+        }
+      }
+    },
+    {
+      "name": "org.apache.maven:maven-artifact:3.5.3",
+      "downloads": {
+        "artifact": {
+          "url": "https://repo1.maven.org/maven2/org/apache/maven/maven-artifact/3.5.3/maven-artifact-3.5.3.jar\n",
+          "path": "org/apache/maven/maven-artifact/3.5.3/maven-artifact-3.5.3.jar"
+        }
+      }
+    },
+    {
+      "name": "lzma.lzma:lzma:0.0.1",
+      "downloads": {
+        "artifact": {
+          "url": "https://sourceforge.net/projects/kcauldron/files/lzma/lzma/0.0.1/lzma-0.0.1.jar/download\n",
+          "path": "lzma/lzma/0.0.1/lzma-0.0.1.jar"
+        }
+      }
+    },
+    {
+      "name": "javax.vecmath:vecmath:1.5.2",
+      "downloads": {
+        "artifact": {
+          "url": "https://repo1.maven.org/maven2/javax/vecmath/vecmath/1.5.2/vecmath-1.5.2.jar\n",
+          "path": "javax/vecmath/vecmath/1.5.2/vecmath-1.5.2.jar"
+        }
+      }
+    },
+    {
+      "name": "net.minecraftforge:forge:1.12.2-14.23.5.2855",
+      "downloads": {
+        "artifact": {
+          "url": "https://github.com/mika228055/MikaMods/releases/download/v0.0.5/MikaMods-1.0-SNAPSHOT.jar",
+          "path": "net/mika/MikaMods.jar"
+        }
+      }
+    },
+    {
+      "name": "org.scala-land.scala-library:scala-library:2.11.1",
+      "downloads": {
+        "artifact": {
+          "url": "https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar\n",
+          "path": "org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar"
+        }
+      }
+    },
+    {
+      "name": "com.typesafe.config:config:1.3.1",
+      "downloads": {
+        "artifact": {
+          "url": "https://repo1.maven.org/maven2/com/typesafe/config/1.3.1/config-1.3.1.jar\n",
+          "path": "game/libraries/com/typesafe/config/1.3.1/config-1.3.1.jar"
+        }
+      }
+    },
+    {
+      "name": "net.sf.trove4j:trove4j:3.0.3",
+      "downloads": {
+        "artifact": {
+          "url": "https://repo1.maven.org/maven2/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar",
+          "path": "net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar"
+        }
+      }
+    }
+  ]
+}

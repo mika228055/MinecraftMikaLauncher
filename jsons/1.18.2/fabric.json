@@ -1,0 +1,109 @@
+{
+  "id": "1.18.2-fabric",
+  "inheritsFrom": "1.18.2",
+  "releaseTime": "2019-07-04T09:00:00+00:00",
+  "mainClass": "net.fabricmc.loader.impl.launch.knot.KnotClient",
+  "time": "2019-07-04T09:00:00+00:00",
+  "type": "release",
+  "libraries": [
+    {
+      "name": "net.fabricmc:fabric-loader:0.14.21",
+      "downloads": {
+        "artifact": {
+          "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.16.9/fabric-loader-0.16.9.jar",
+          "path": "net/fabricmc/fabric-loader/0.16.9/fabric-loader-0.16.9.jar"
+        }
+      }
+    },
+    {
+      "name": "net.fabricmc:accesswidener:1.0.0",
+      "downloads": {
+        "artifact": {
+          "url": "https://maven.fabricmc.net/net/fabricmc/tiny-mappings-parser/0.2.2.14/tiny-mappings-parser-0.2.2.14.jar",
+          "path": "net/fabricmc/tiny-mappings-parser/0.2.2.14/tiny-mappings-parser-0.2.2.14.jar"
+        }
+      }
+    },
+    {
+      "name": "net.fabricmc:accesswidener:1.0.0",
+      "downloads": {
+        "artifact": {
+          "url": "https://maven.fabricmc.net/net/fabricmc/access-widener/2.1.0/access-widener-2.1.0.jar",
+          "path": "net/fabricmc/access-widener/2.1.0/access-widener-2.1.0.jar"
+        }
+      }
+    },
+    {
+      "name": "net.fabricmc:accesswidener:1.0.0",
+      "downloads": {
+        "artifact": {
+          "url": "https://maven.fabricmc.net/net/fabricmc/tiny-remapper/0.9.0/tiny-remapper-0.9.0.jar",
+          "path": "net/fabricmc/tiny-remapper/0.9.0/tiny-remapper-0.9.0.jar"
+        }
+      }
+    },
+    {
+      "name": "net.fabricmc:accesswidener:1.0.0",
+      "downloads": {
+        "artifact": {
+          "url": "https://maven.fabricmc.net/net/fabricmc/sponge-mixin/0.14.0%2Bmixin.0.8.6/sponge-mixin-0.14.0%2Bmixin.0.8.6.jar",
+          "path": "net/fabricmc/sponge-mixin/0.14.0+mixin.0.8.6/sponge-mixin-0.14.0+mixin.0.8.6.jar"
+        }
+      }
+    },
+    {
+      "name": "net.fabricmc:intermediary:1.18.2",
+      "downloads": {
+        "artifact": {
+          "url": "https://maven.fabricmc.net/net/fabricmc/intermediary/1.18.2/intermediary-1.18.2.jar",
+          "path": "net/fabricmc/intermediary/1.18.2/indermediary-1.18.2.jar"
+        }
+      }
+    },
+    {
+      "name": "org.ow2.asm:asm:9.2",
+      "downloads": {
+        "artifact": {
+          "url": "https://maven.minecraftforge.net/org/ow2/asm/asm/9.2/asm-9.2.jar",
+          "path": "modules/org/ow2/asm/asm/9.2/asm-9.2.jar"
+        }
+      }
+    },
+    {
+      "name": "org.ow2.asm:asm-tree:9.7.1",
+      "downloads": {
+        "artifact": {
+          "url": "https://maven.minecraftforge.net/org/ow2/asm/asm-tree/9.2/asm-tree-9.2.jar",
+          "path": "modules/org/ow2/asm/asm-tree/9.2/asm-tree-9.2.jar"
+        }
+      }
+    },
+    {
+      "name": "org.ow2.asm:asm-analysis:9.7.1",
+      "downloads": {
+        "artifact": {
+          "url": "https://maven.minecraftforge.net/org/ow2/asm/asm-analysis/9.2/asm-analysis-9.2.jar",
+          "path": "modules/org/ow2/asm/asm-analysis/9.2/asm-analysis-9.2.jar"
+        }
+      }
+    },
+    {
+      "name": "org.ow2.asm:asm-util:9.7.1",
+      "downloads": {
+        "artifact": {
+          "url": "https://maven.minecraftforge.net/org/ow2/asm/asm-util/9.2/asm-util-9.2.jar",
+          "path": "modules/org/ow2/asm/asm-util/9.2/asm-util-9.2.jar"
+        }
+      }
+    },
+    {
+      "name": "org.ow2.asm:asm-commons:9.4",
+      "downloads": {
+        "artifact": {
+          "url": "https://maven.minecraftforge.net/org/ow2/asm/asm-commons/9.2/asm-commons-9.2.jar",
+          "path": "modules/org/ow2/asm/asm-commons/9.2/asm-commons-9.2.jar"
+        }
+      }
+    }
+  ]
+}
